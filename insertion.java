@@ -8,12 +8,11 @@ public class insertion {
             while(j>=0 && arr[j]>num){
               arr[j+1]=arr[j];
               j--;
-              
-          }
-           arr[j+1]=num;
+            }
+            arr[j+1]=num;
         }
          for(int i=0; i<n; i++){
             System.out.println(arr[i]);
+        }
     }
- }
 }
